@@ -11,14 +11,10 @@ ScriptsOnlyBuild:
     - TimerUpSpawner
     - TouchController
     - UIManager
-    Unity.AdaptivePerformance.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
-    - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
-    Unity.AdaptivePerformance.dll:
-    - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
-    - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -1432,4 +1428,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/PlayScene.unity
-  playerPath: /Users/rjs/FallLine/v10.aab
+  playerPath: /Users/rjs/FallLine/v11.aab
